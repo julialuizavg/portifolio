@@ -1,0 +1,143 @@
+<!<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="Nova pasta/avatar.png" alt="Avatar da Julia" class="rounded-circle" width="150" height="150">
+        <p class="lead">Eu sou Julia_</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Estudo sobre pensamento computacional usando HTML, CSS e JavaScript. Veja os projetos que já desenvolvi!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <span class="badge bg-secondary">HTML</span>
+            <span class="badge bg-secondary">CSS</span>
+            <span class="badge bg-secondary">JavaScript</span>
+            <span class="badge bg-secondary">Scratch</span>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Nova pasta/projeto 1.png" class="card-img-top" alt="Imagem do projeto Laraoflix">
+                    <div class="card-body">
+                        <h5 class="card-title">Juliaflix: Uma Webpage Personalizada</h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta filmes que recomendo. O site mostra vídeos curtos de cada filme.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Nova pasta/projeto 2.png" class="card-img-top" alt="Imagem do projeto Criando sua aventura">
+                    <div class="card-body">
+                        <h5 class="card-title">Criando sua Aventura</h5>
+                        <p class="card-text">Um jogo interativo onde você faz seu próprio caminho para encontrar a cidade perdida.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Nova pasta/projeto 3.png" class="card-img-top" alt="Imagem do projeto Corrida de Emojis">
+                    <div class="card-body">
+                        <h5 class="card-title">Corrida de Emojis</h5>
+                        <p class="card-text">Este projeto feito em p5.js é uma corrida onde os jogadores pressionam teclas para mover emojis até a linha de chegada.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Juliaflix: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é uma página web criada com HTML e CSS, destinada a exibir recomendações de músicas favoritos. O objetivo é compartilhar recomendações com vídeos breves de cada filme.</p>
+                    <p>O HTML estrutura o site, e o CSS é usado para estilizar visualmente com cores, tipografia e layout responsivo.</p>
+                    <img src="Nova pasta/projeto 1.png" class="img-fluid w-100" alt="Imagem do projeto Juliaflix">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://julialuizavg.github.io/cartaz-filme//" class="btn btn-primary">Ver projeto ao vivo</a>
+                    <a href="https://github.com/julialuizavg/cartaz-filme" class="btn btn-secondary">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Criando sua aventura</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este é um jogo interativo com HTML, CSS e JavaScript, onde o jogador toma decisões para encontrar a cidade perdida.</p>
+                    <p>HTML define as seções, CSS cuida do visual futurista e responsivo, e JavaScript dá a interatividade e lógica do jogo.</p>
+                    <img src="Nova pasta/projeto 2.png" class="img-fluid w-100" alt="Imagem do projeto Criando sua aventura">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://julialuizavg.github.io/criando-sua-aventura/" class="btn btn-primary">Ver projeto ao vivo</a>
+                    <a href="https://github.com/julialuizavg/criando-sua-aventura" class="btn btn-secondary">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Corrida de Emojis</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Um jogo com p5.js onde emojis competem em uma corrida. Cada jogador usa uma tecla diferente.</p>
+                    <p>Este projeto é ótimo para aprender programação visual e lógica com JavaScript.</p>
+                    <img src="Nova pasta/projeto 3.png" alt="Projeto Corrida de Emojis" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/00001098325655sp/full/wtndob8qd" class="btn btn-primary">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/julialuizavg">GitHub</a>
+        </div>
+        <p class="my-5 text-center">©️ Copyright 2024. Produzido por Julia</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
